@@ -1,0 +1,41 @@
+.item {
+    /* border-radius: 12px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #567572FF;
+    margin-bottom: 5px;
+}
+
+
+.item-description {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: flex-start;
+    flex: 1;
+    align-items: center;
+    
+}
+
+.item-description h3 {
+    display: flex;
+    flex: 1;
+    margin: 0 1rem;
+    color: white;
+}
+
+.item-price {
+    margin: 5px 10px;
+
+    background-color: #964F4CFF;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+.item-price p{
+    color: white;
+    padding: 0px 20px;
+    margin: 2px 5px;
+    font-weight: bold;
+    font-size: large;
+}

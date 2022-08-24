@@ -1,0 +1,17 @@
+.expense-filter {
+
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.expense-filter label{
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+.expense-filter select{
+    padding: 0.5rem 2rem;
+    font-weight: bold;
+}
